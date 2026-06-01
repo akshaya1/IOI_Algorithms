@@ -1,0 +1,9 @@
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+if num1 == 2 * num2:
+    print(num1, "is double of", num2)
+elif num2 == 2 * num1:
+    print(num2, "is double of", num1)
+else:
+    print("Neither number is double of the other.")
