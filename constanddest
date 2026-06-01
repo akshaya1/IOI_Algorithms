@@ -1,0 +1,18 @@
+class Robot:
+
+    # Constructor
+    def __init__(self, name):
+        self.name = name
+        print("Constructor called")
+        print("Robot Name:", self.name)
+
+    # Destructor
+    def __del__(self):
+        print("Destructor called")
+        print("Robot", self.name, "is destroyed")
+
+# Creating an object
+r1 = Robot("Robo")
+
+# Deleting the object
+del r1
