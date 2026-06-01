@@ -1,0 +1,34 @@
+# Creating a list
+fruits = ["Apple", "Banana", "Mango"]
+
+print("Original List:", fruits)
+
+# Add an item
+fruits.append("Orange")
+print("After Append:", fruits)
+
+# Insert an item
+fruits.insert(1, "Grapes")
+print("After Insert:", fruits)
+
+# Remove an item
+fruits.remove("Banana")
+print("After Remove:", fruits)
+
+# Access an item
+print("First Fruit:", fruits[0])
+
+# Update an item
+fruits[2] = "Pineapple"
+print("After Update:", fruits)
+
+# Length of list
+print("Number of Items:", len(fruits))
+
+# Sort the list
+fruits.sort()
+print("Sorted List:", fruits)
+
+# Reverse the list
+fruits.reverse()
+print("Reversed List:", fruits)
