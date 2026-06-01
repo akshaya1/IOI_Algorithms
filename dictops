@@ -1,0 +1,36 @@
+# Creating a dictionary
+student = {
+    "name": "Akshaya",
+    "age": 15,
+    "grade": "10"
+}
+
+print("Original Dictionary:")
+print(student)
+
+# Access a value
+print("Name:", student["name"])
+
+# Add a new key-value pair
+student["city"] = "Mumbai"
+print("After Adding City:")
+print(student)
+
+# Update a value
+student["age"] = 16
+print("After Updating Age:")
+print(student)
+
+# Remove a key-value pair
+student.pop("grade")
+print("After Removing Grade:")
+print(student)
+
+# Display keys
+print("Keys:", student.keys())
+
+# Display values
+print("Values:", student.values())
+
+# Display items
+print("Items:", student.items())
