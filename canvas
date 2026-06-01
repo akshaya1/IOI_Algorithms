@@ -1,0 +1,12 @@
+from tkinter import *
+
+root = Tk()
+root.title("Square on Canvas")
+
+canvas = Canvas(root, width=300, height=300, bg="white")
+canvas.pack()
+
+# Draw a square
+canvas.create_rectangle(50, 50, 150, 150, outline="black", fill="lightblue")
+
+root.mainloop()
