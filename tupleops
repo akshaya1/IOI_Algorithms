@@ -1,0 +1,25 @@
+# Creating a tuple
+fruits = ("Apple", "Banana", "Mango", "Orange")
+
+print("Original Tuple:", fruits)
+
+# Access elements
+print("First Fruit:", fruits[0])
+
+# Length of tuple
+print("Number of Items:", len(fruits))
+
+# Count occurrences
+numbers = (1, 2, 3, 2, 4, 2)
+
+print("Count of 2:", numbers.count(2))
+
+# Find index
+print("Index of Mango:", fruits.index("Mango"))
+
+# Slicing
+print("First Two Fruits:", fruits[:2])
+
+# Loop through tuple
+for fruit in fruits:
+    print(fruit)
