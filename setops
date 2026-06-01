@@ -1,0 +1,18 @@
+# Creating a set
+fruits = {"Apple", "Banana", "Mango"}
+
+print("Original Set:", fruits)
+
+# Add an element
+fruits.add("Orange")
+print("After Add:", fruits)
+
+# Remove an element
+fruits.remove("Banana")
+print("After Remove:", fruits)
+
+# Check membership
+print("Apple" in fruits)
+
+# Length of set
+print("Number of Items:", len(fruits))
