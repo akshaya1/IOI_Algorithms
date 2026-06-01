@@ -1,0 +1,6 @@
+colors = ("Red", "Green", "Blue")
+
+color_list = list(colors)
+
+print("Tuple:", colors)
+print("List:", color_list)
